@@ -1,74 +1,181 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8"><link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/camera.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/fractionslider.css">		
+<script src="js/jquery-1.9.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.1.1.js"></script>
+<script type="text/javascript" src="js/camera.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>		
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+<!--[if lt IE 8]><div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div><![endif]-->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+      <link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+  <![endif]-->
+</head>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Groupfreelancers.github.io by groupfreelancers</title>
-  </head>
-
-  <body>
-    <header>
+<body>
+  <header>
+      <div class="container_12">
+          <div class="grid_12">
+              <div class="wrapper">
+                  <a href="index.html" class="logo">GroupFreelancers</a>
+                  <nav>
+                      <ul class="menu">
+                          <li class="active"><a href="index.html">home</a></li>
+                          <li><a href="works.html">works</a></li>
+                          <li><a href="clients.html">about us</a></li>
+                          <li><a href="contacts.html">contacts</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <div id="content">
+      <div class="slider-wrapper">
+          <div class="responisve-container">
+              <div class="slider">
+                  <div class="fs_loader"></div>
+                  <div class="slide">
+                      <img 	src="images/01_box_top.png" width="361" height="354" data-position="-152,142" data-in="left" data-delay="200" data-out="right">								
+                      <img  src="images/01_box_bottom.png" width="422" height="454" data-position="138,-152" data-in="bottomRight" data-delay="200">								
+                      <img  src="images/01_waves.png" width="1449" height="115" data-position="240,17" data-in="left" data-delay="" data-out="left">                        						
+                      <p class="claim light-green father" data-position="30,30" data-in="top" data-step="1" data-out="top" data-ease-in="easeOutBounce">Customers Satisfaction</p>														
+                      <p class="teaser orange" data-position="90,30" data-in="left" data-step="2" data-delay="500">Design Beatiful</p>		
+                      <p class="teaser green" data-position="90,30" data-in="left" data-step="2" data-special="cycle" data-delay="3000">Finish Short Time</p>		
+                      <p class="teaser turky" data-position="90,30" data-in="left" data-step="2" data-special="cycle" data-delay="5500" data-out="none">Very Cheap</p>						
+                      <img src="images/01_outofthebox.png" data-position="20,330" data-in="bottomLeft" data-delay="500" data-out="fade">
+                  </div>
+                         
+                  <div class="slide">
+                      <img src="images/02_big_boxes.png" data-position="25,445" data-in="fade" data-delay="0" data-out="right">								
+                      <img src="images/02_small_boxes.png" data-position="80,220" data-in="fade" data-delay="500" data-out="bottomRight">						
+                      <img src="images/01_box_bottom.png" data-position="138,-152" data-in="bottomRight" data-delay="200" data-out="bottomRight">                      
+                      <p class="claim light-green small father" data-position="30,30" data-in="top" data-step="1" data-out="top">Many Services</p>										
+                      <p class="teaser turky small" data-position="90,30" data-in="bottom" data-step="2" data-delay="500">IOS Object-C</p>		
+                      <p class="teaser turky small" data-position="120,30" data-in="bottom" data-step="2" data-delay="1500">Ruby On Rails</p>
+                      <p class="teaser turky small" data-position="150,30" data-in="bottom" data-step="2" data-delay="2500">Desigin - Photoshop</p>	
+                      <p class="teaser turky small" data-position="180,30" data-in="bottom" data-step="2" data-delay="3500">Cache PHP</p>
+                      <p class="teaser turky small" data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">HTML5 - CSS3</p>								
+                      <img  src="images/01_waves.png" width="1449" height="115" data-position="240,200" data-in="right" data-step="2" data-easeIn="easeOutCirc">								
+                      <img 	src="images/02_main.png" data-position="105,180" data-in="fade" data-delay="500" data-out="bottomRight">
+                  </div>                  
+                  
+                  <div class="slide">
+                    <img src="images/02_e3_bigboxes.gif" class="layer_4 fs_obj" data-position="-150,410" data-in="topLeft" height="181.25%" width="55.4%">		
+                    <img src="images/02_e3_smallboxes.png" class="layer_3 fs_obj" data-position="140,1" data-in="right" height="44%" width="30.2%">
+                    <img src="images/02_e2_webdesign.png" class="layer_2 fs_obj" data-position="105,80" data-in="topLeft" data-delay="100" height="101.25%" width="54%">
+                    <img src="images/02_e1_feader.png" class="layer_1 fs_obj" data-position="15,100" data-in="topRight" data-delay="750" height="54.25%" width="28.3%">
+                                
+                    <p class="claim orange layer_1 fs_obj father" data-position="215,0" data-in="right" data-step="1" data-time="1000" data-out="left">Webdesign</p>                    
+                    <p class="teaser fixed-250 light-green layer_1 fs_obj special" data-position="20,630" data-in="bottom" data-step="2" data-time="1000" data-delay="0">Screendesign</p>
+                    <p class="teaser fixed-250 light-green layer_1 fs_obj special" data-position="60,630" data-in="bottom" data-step="2" data-time="2000" data-delay="1000">HTML5 &amp; CSS3</p>		
+                    <p class="teaser fixed-250 light-green layer_1 fs_obj special" data-position="100,630" data-in="bottom" data-step="2" data-time="3000" data-delay="2000">Javacript, jQuery</p>		
+                    <p class="teaser fixed-250 light-green layer_1 fs_obj special" data-position="140,630" data-in="bottom" data-step="2" data-time="4000" data-delay="3000">Event</p>	
+                    <p class="teaser fixed-250 light-green layer_1 fs_obj special" data-position="180,630" data-in="bottom" data-step="2" data-time="5000" data-delay="4000">Jquery Mobile</p>	
+                    <p class="teaser fixed-250 light-green layer_1 fs_obj special" data-position="220,630" data-in="bottom" data-step="2" data-time="6000" data-delay="5000">IOS - Android</p>
+                </div>                  
+                  
+                  <div class="slide">
+                      <img src="images/03_e3_bg.gif" data-position="-150,-100" data-in="left" height="228%" width="129.4%">		
+                      <img src="images/03_e2_flyer.png" data-position="117,180" data-in="bottomLeft" data-delay="250" data-out="topLeft" height="91.5%" width="38.1%">
+                      <img src="images/03_e1_mobile.png" data-position="3,68" data-in="bottomLeft" height="44.75%" width="14.3%">                              
+                      <p class="claim light-green layer_1 fs_obj father" data-position="65,565" data-in="left" data-step="1" data-out="left">Mobile Developemnt</p>
+                      <p class="teaser orange special" data-position="130,565" data-in="bottom" data-step="2" data-delay="0">Responsive Webdesign</p>		
+                      <p class="teaser orange special" data-position="170,565" data-in="bottom" data-step="2" data-delay="1000">Mobile Adaption (jQueryMobile)</p>		
+                      <p class="teaser orange special" data-position="210,565" data-in="bottom" data-step="2" data-delay="2000">iOS Application</p>	
+                      <p class="teaser orange special" data-position="250,565" data-in="bottom" data-step="2" data-delay="3000">Android Application</p>
+                    </div>
+                
+                  <div class="slide">	
+                  <img src="images/04_e4_circlelines.gif" data-position="67.25,-10.6" data-in="bottom" data-delay="500" data-out="fade" height="92.5%" width="95%">
+                  <img src="images/04_e3_smalldb.png" data-position="25,820" data-in="top" data-out="bottom" height="25%" width="10.2%">
+                  <img src="images/04_e3_bigdb.png" data-position="2.75,15" data-in="top" data-delay="250" height="60.25%" width="25.5%">
+                  <img src="images/04_e3_smalldb.png" data-position="330,577" data-in="top" data-delay="500" height="25%" width="10.2%">
+                  <img src="images/04_e2_circle.png" data-position="70,307" data-in="topRight" data-delay="500" height="57.75%" width="13%">	
+                  <img src="images/04_e1_development.png"data-position="155,830" data-in="fade" data-delay="250" height="44%" width="24.7%">                              
+                  <p class="claim orange father" data-position="10,470" data-in="top" data-step="1" data-out="top">Development</p>	
+                  <p class="teaser turky special" data-position="85,470" data-in="right" data-step="2" data-delay="0">Webanwendungen</p>		
+                  <p class="teaser turky special" data-position="130,470" data-in="right" data-step="2" data-delay="1000">jQuery-Plugins</p>		
+                  <p class="teaser turky special" data-position="175,470" data-in="right" data-step="2" data-delay="2000">iCloud</p>					
+                </div>		
+              </div>
+          </div>
+      </div>
       <div class="inner">
-        <h1>Groupfreelancers.github.io</h1>
-        <h2></h2>
-        <a href="https://github.com/groupfreelancers" class="button"><small>Follow me on</small>GitHub</a>
+          <div class="container_12">
+              <div class="wrapper">
+                  <div class="grid_12">
+                      <div class="block">
+                          <div class="info-block">
+                              <a href="contacts.html" rel="nofollow" class="link">Click here</a> for more info about this services created by Group Freelancers. Cheapest price and best service, always forever after warranty service and many thing are waiting for you.
+                          </div>
+                          <a href="contacts.html" class="button" rel="nofollow">Contact Us!</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="wrapper">
+                  <div class="block">
+                      <div class="grid_8">
+                          <div class="grid-inner">
+                          <h2>Hello Everybody!</h2>
+                              <div class="wrapper">
+                                  <figure class="img-indent"><img src="images/image1.jpg" alt=""></figure>
+                                  Đây là thời đại của công nghệ thông tin, đa số mọi thứ đều phụ thuộc vào công nghệ thông tin ,trước đây bạn muốn viết một bức thư và gửi thì rất phức tạp ,còn bây giờ ,chỉ với vài phút đơn giản ,mọi thứ đã xong ,công nghệ phát triển từng ngày ,từng phút ,hãy cảm nhận cuộc sống số ,bạn sẽ thấy nó tuyệt vời biết bao nhiêu, "BRING THE WORLD TO YOU" .  
+                              </div>
+      <p class="pad">Nếu bạn có ý tưởng ,hãy đưa nó cho chúng tôi ,từ thiết kế ,đến khâu hoàn thiện, chúng tôi sẽ làm cho nó trở nên tuyệt vời nhất.</p>
+                          </div>
+                      </div>
+                      <div class="grid_4">
+                          <h2>Testimonials</h2>
+                          <div class="testimonial-block">
+                              <em>I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what’s next.</em><p><strong>— CEO APPLE, Steve Jobs</strong></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="wrapper">
+                  <div class="grid_12">
+                      <h2 class="h-pad">Our Services</h2>
+                      <ul class="clients-list">
+                          <li><a href="#"><img src="images/client1.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/client2.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/client3.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/client4.png" alt=""></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>			
       </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <aside id="sidebar">
-
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
+  </div>
+  <footer>
+      <div class="container_12">
+          <div class="wrapper">
+              <div class="grid_8">
+                  Group Freelancers &copy; 2013 &nbsp;  | &nbsp;  Website Template designed by <a href="http://framgia.com/en/" rel="nofollow" class="link">Framgia.com/en/</a>
+              </div>
+              <div class="grid_4">
+                  <div class="social">
+                      Groups Social:<a href="https://www.facebook.com/groupfreelancers?ref=hl"><img src="images/facebook-icon.png" alt=""></a>
+                                    <a href="https://twitter.com/frfreelancer"><img src="images/twitter-icon.png" alt=""></a>
+                  </div>
+              </div>
+              <div class="grid_12">More <a href="https://www.facebook.com/groupfreelancers?ref=hl" title="CTO - website templates and rubyonrails" target="_blank">Ruby On Rails and IOS</a> at CTO.</div>
+          </div>
       </div>
-    </div>
-
-  
-  </body>
+  </footer>
+</body>
 </html>

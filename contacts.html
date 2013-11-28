@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta charset="utf-8"><link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-1.1.1.js"></script>
+  <!--[if lt IE 8]><div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div><![endif]-->
+  	<!--[if lt IE 9]>
+	   	<script src="js/html5shiv.js"></script>
+	   	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+    <![endif]-->
+    
+    
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&language=vi"></script>
+<script type="text/javascript">
+var map;
+function initialize() {
+      var myLatlng = new google.maps.LatLng(21.030353,105.785025);
+      var myOptions = {
+    zoom: 16,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+}
+map = new google.maps.Map(document.getElementById("maps"), myOptions); 
+  // Biến text chứa nội dung sẽ được hiển thị
+var text;
+text= "<b style='color:#00F' " + 
+         "style='text-align:center'>Group Freelancers Inc!<br />" + 
+     "<img src='images/logo.png'  /></b>";
+   var infowindow = new google.maps.InfoWindow(
+    { content: text,
+        size: new google.maps.Size(100,50),
+        position: myLatlng
+    });
+       infowindow.open(map);    
+    var marker = new google.maps.Marker({
+      position: myLatlng, 
+      map: map,
+      title:"Group Freelancers!"
+  });
+}
+</script>
+    
+    
+</head>
+
+<body onLoad="initialize()">
+	<header>
+		<div class="container_12">
+			<div class="grid_12">
+				<div class="wrapper">
+                  <a href="index.html" class="logo">GroupFreelancers</a>
+                  <nav>
+                      <ul class="menu">
+                          <li><a href="index.html">home</a></li>
+                          <li><a href="works.html">works</a></li>
+                          <li><a href="clients.html">about us</a></li>
+                          <li class="active"><a href="contacts.html">contacts</a></li>
+                      </ul>
+                  </nav>
+              </div>
+			</div>
+		</div>
+	</header>
+	<div id="content">
+		<div class="ic"></div>
+		<div class="inner pad1">
+			<div class="container_12">
+				<div class="wrapper h-pad">
+					<div class="grid_7" style="width:960px !important;">
+						<h2>Contact Info</h2>
+						<div class="wrapper">
+							<div class="grid_4 alpha" id="maps" style="margin-right:0px; width:640px !important; height:400px !important; ">								
+							</div>
+							<div class="grid_3 omega" style="width:250px !important; float:right;">
+								<div class="contacts">
+									<strong class="title">The Company Group Freelancers Inc.</strong>
+									64 Kim Giang Road, <br>
+									Thanh Xuan, Ha Noi.<br>
+									Telephone:+84 936157193<br>
+									skype:groupfreelancers<br>
+                                    facebook:<a href="https://www.facebook.com/groupfreelancers"></a>
+									E-mail: <a href="mailto:frteamfreelancers@gmail.com" class="link" target="_top">frteamfreelancers@gmail.com</a> 
+								</div>		
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<footer>
+      <div class="container_12">
+          <div class="wrapper">
+              <div class="grid_8">
+                  Group Freelancers &copy; 2013 &nbsp;  | &nbsp;  Website Template designed by <a href="http://framgia.com/en/" rel="nofollow" class="link">Framgia.com/en/</a>
+              </div>
+              <div class="grid_4">
+                  <div class="social">
+                      Groups Social:<a href="https://www.facebook.com/groupfreelancers?ref=hl"><img src="images/facebook-icon.png" alt=""></a>
+                                    <a href="https://twitter.com/frfreelancer"><img src="images/twitter-icon.png" alt=""></a>
+                  </div>
+              </div>
+              <div class="grid_12">More <a href="https://www.facebook.com/groupfreelancers?ref=hl" title="CTO - website templates and rubyonrails" target="_blank">Ruby On Rails and IOS</a> at CTO.</div>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
+
+
+

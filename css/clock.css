@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+.clock{
+	 background:#202020;
+	 font:bold 12px Arial, Helvetica, sans-serif;
+	 margin:0;
+	 padding:0;
+	 color:#bbbbbb; 
+}
+
+.clock a { 
+	text-decoration:none; 
+	color:#00c6ff;
+}
+
+.clock h1 {
+	font: 2em normal Arial, Helvetica, sans-serif;
+	padding: 20px;	margin: 0;
+	text-align:center;
+}
+
+.clock h1 small{
+	font: 0.2em normal  Arial, Helvetica, sans-serif;
+	text-transform:uppercase; letter-spacing: 0.2em; line-height: 5em;
+	display: block;
+}
+
+.clock h2 {
+    font-weight:700;
+    color:#bbb;
+    font-size:20px;
+}
+
+.clock h2, p {
+	margin-bottom:10px;
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.clock .container {width: 290px; margin: 0 auto; overflow: hidden;}
+
+.clock {width:290px; margin:0 auto; padding:10px; border:1px solid #333; color:#fff; }
+
+#Date { font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; font-size:26px; text-align:center; text-shadow:0 0 5px #00c6ff; }
+
+.clock ul { width:290px; margin:0 auto; padding:0px; list-style:none; text-align:center; }
+.clock ul li { display:inline; font-size:4em; text-align:center; font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; text-shadow:0 0 5px #00c6ff; }
+
+.clock #point { position:relative; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; padding-left:10px; padding-right:10px; }
+
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}
+
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}
+
+
+
+
+
+
+
+
+
